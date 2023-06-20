@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: radial-gradient(
+    circle,
+    #dae5f7,
+    #d8daf8,
+    #dfccf3,
+    #ebbde5,
+    #f8adcf
+  );
+}
+.cards-board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repreat(3, 1fr);
+  grid-gap: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 50px;
+  border-radius: 30px;
+}
+.card {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+}
+.card-cover{
+  background: url(../media/card_flipped.jpg) center/cover;
+}
+
+#card-image-1 {
+  background: url('../media/friends_chandler.jpg') center/cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+#card-image-2 {
+  background: url('../media/friends_monica.jpg') center/cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+#card-image-3 {
+  background: url('../media/friends_rachel.jpg') center/cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+#card-image-4 {
+  background: url('../media/friends_ross.jpg') center/cover;
+
+}
+#card-image-5 {
+  background: url('../media/the_office_jim.jpg') center/cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+ #card-image-6 {
+  background: url('../media/the_office_pam.jpg') center/cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+ #card-image-7 {
+  background: url('../media/himym_lily.jpg') center/cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+#card-image-8 {
+  background: url('../media/himym_marshell.jpg') center/cover;
+  border-radius: 10px;
+}
+ #card-image-9 {
+  background: url('../media/the_simposns_marge.jpg') center/cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+#card-image-10 {
+  background: url('../media/the_simpsons_homer.jpg') center/cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+ #card-image-11 {
+  background: url('../media/modern_family_cam.jpg') center/cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+#card-image-12 {
+  background: url('../media/modern_family_mitchell.jpg') center/cover;
+  border-radius: 10px;
+}  
